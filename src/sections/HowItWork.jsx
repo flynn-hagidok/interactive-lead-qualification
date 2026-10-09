@@ -1,7 +1,7 @@
 import { BsFillPeopleFill } from "react-icons/bs";
 import { FaClipboardQuestion } from "react-icons/fa6";
 import { IoNotifications } from "react-icons/io5";
-import Qualification from "./Quilification";
+import Qualification from "./Qualification";
 
 const data = [
     {

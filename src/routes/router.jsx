@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import MainLayout from "../layouts/MainLayout";
 import Home from "../pages/Home";
-import Result from "../pages/Result";
+import Recommendation from "../components/Qualification/Recommendation";
 
 export const router = createBrowserRouter([
     {
@@ -13,8 +13,8 @@ export const router = createBrowserRouter([
                 Component: Home
             },
             {
-                path: "/result",
-                Component: Result
+                path: "/recommendation",
+                Component: Recommendation
             }
         ]
     }
